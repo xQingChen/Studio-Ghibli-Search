@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+  
+#filmTitle {
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-decoration: underline; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Poetsen One", sans-serif;
+  font-style: normal;
+}
+
+#filmYear, #filmDirector {
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif; 
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0); 
+  margin-top:10px;  
+}
+
+#filmDescription {
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif; 
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin-top:10px; 
+  margin-bottom:10px;
+}
+
+body {
+  height: 100vh;
+  background-image: url('https://marketplace.canva.com/EAFJrDrznkA/1/0/1600w/canva-green-cartoon-desktop-wallpaper-zIX0bvLC7zA.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1, h2 {
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+  font-family: "Poetsen One", sans-serif;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  font-family: "Poetsen One", sans-serif;
+  font-style: normal;
+  color: white;
+}
+
+input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 10px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#filmPoster {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 200px;
+}
